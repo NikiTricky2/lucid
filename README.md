@@ -14,11 +14,7 @@
 Lucid is a collection of infrastructure and tools for research in neural
 network interpretability.
 
-**We're not currently supporting tensorflow 2!**
-
-If you'd like to use lucid in colab which defaults to tensorflow 2, add this magic to a cell before you import tensorflow:
-
-```%tensorflow_version 1.x```
+This repository is a fork of the original [tensorflow repository](https://github.com/tensorflow/lucid), that has been modified to support tensorflow 2 since Colab does no longer support the `%tensorflow_version 1.x` compatibility magic command.
 
 **Lucid is research code, not production code. We provide no guarantee it will work for your use case. Lucid is maintained by volunteers who are unable to provide significant technical support.**
 
@@ -59,21 +55,34 @@ You can run the notebooks on your local machine, too. Clone the repository and f
 ## Feature Visualization Notebooks
 *Notebooks corresponding to the [Feature Visualization](https://distill.pub/2017/feature-visualization/) article*
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/feature-visualization/negative_neurons.ipynb">
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/feature-visualization/negative_neurons.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/feature-visualization/stickers/colab-neuron-negative.png" width="500" alt=""></img>
-</a>
+</a-->
+- [Negative Neurons](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/feature-visualization/negative_neurons.ipynb)
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/feature-visualization/neuron_diversity.ipynb">
+  This notebook reproduces the negative channel visualizations shown in the article.
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/feature-visualization/neuron_diversity.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/feature-visualization/stickers/colab-neuron-diversity.png" width="500" alt=""></img>
-</a>
+</a-->
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/feature-visualization/neuron_interaction.ipynb">
+- [Neuron diversity](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/feature-visualization/neuron_diversity.ipynb)
+
+  This notebook reproduces the neuron diversity visualizations shown in the article.
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/feature-visualization/neuron_interaction.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/feature-visualization/stickers/colab-neuron-interaction.png" width="500" alt=""></img>
-</a>
+</a-->
+- [Neuron interaction](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/feature-visualization/neuron_interaction.ipynb)
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/feature-visualization/regularization.ipynb">
+  This notebook reproduces some visualizations created by interacting different neurons as described in the article.
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/feature-visualization/regularization.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/feature-visualization/stickers/colab-regularization.png" width="500" alt=""></img>
-</a>
+</a-->
+- [Regularization](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/feature-visualization/regularization.ipynb)
+
+  This notebook describes the feature visulization solutions used in the article.
 
 ## Building Blocks Notebooks
 *Notebooks corresponding to the [Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/) article*
