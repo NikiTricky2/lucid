@@ -29,7 +29,6 @@ If you'd like to use lucid in colab which defaults to tensorflow 2, add this mag
 * [🔬 **Start Doing Research!**](https://github.com/tensorflow/lucid/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Aresearch) -- Want to get involved? We're trying to research openly!
 * [📦 **Visualize your own model**](https://github.com/tensorflow/lucid/wiki/Importing-Models-into-Lucid) -- How to import your own model for visualization
 
-<br>
 
 # Notebooks
 
@@ -40,14 +39,20 @@ You can run the notebooks on your local machine, too. Clone the repository and f
 
 ## Tutorial Notebooks
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/tutorial.ipynb">
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/tutorial.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/common/stickers/colab-tutorial.png" width="500" alt=""></img>
-</a>
+</a-->
+- [Tutorial notebook](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/tutorial.ipynb)
 
+  This tutorial quickly introduces [**Lucid**](https://github.com/tensorflow/lucid), a network for visualizing neural networks. Lucid is a kind of spiritual successor to DeepDream, but provides flexible abstractions so that it can be used for a wide range of interpretability research.
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/modelzoo.ipynb">
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/modelzoo.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/common/stickers/colab-modelzoo.png" width="500" alt=""></img>
-</a>
+</a-->
+- [Modelzoo notebook](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/modelzoo.ipynb)
+
+  If you want to study techniques for visualizing and understanding neural networks, it's important to be able to try your experiments on multiple models. <br>
+  Lucid is a library for visualizing neural networks. As of lucid v0.3, we provide a consistent API for interacting with 27 different vision models.
 
 <!--If you want to study techniques for visualizing and understanding neural networks, it's important to be able to try your experiments on multiple models. As of lucid v0.3, we provide a consistent API for interacting with 27 different vision models.-->
 
@@ -153,7 +158,7 @@ You can run the notebooks on your local machine, too. Clone the repository and f
 <img src="https://storage.googleapis.com/lucid-static/misc/stickers/colab-interaction-grid.png" width="500" alt=""></img>
 </a>
 
-<br> 
+<br>
 
 # Recomended Reading
 
