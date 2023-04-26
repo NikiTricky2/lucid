@@ -1,4 +1,4 @@
-<img src="https://storage.googleapis.com/lucid-static/common/stickers/channels-visualizations.jpg" width="782"></img>
+<img src="https://github.com/ercaronte/lucid/raw/master/notebooks/static/channels-visualizations.jpg" width="782"></img>
 
 # Lucid
 
@@ -82,24 +82,33 @@ You can run the notebooks on your local machine, too. Clone the repository and f
 </a-->
 - [Regularization](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/feature-visualization/regularization.ipynb)
 
-  This notebook describes the feature visulization solutions used in the article.
+  This notebook describes the feature visualization algorithms used in the article.
 
 ## Building Blocks Notebooks
 *Notebooks corresponding to the [Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/) article*
 
-
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/SemanticDictionary.ipynb">
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/SemanticDictionary.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/building-blocks/stickers/colab-semantic-dict.png" width="500" alt=""></img>
-</a>
-<br>
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/ActivationGrid.ipynb">
+</a-->
+- [Semantic Dictionary](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/building-blocks/SemanticDictionary.ipynb)
+
+  This notebook ...
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/ActivationGrid.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/building-blocks/stickers/colab-grid.png" width="500" alt=""></img>
-</a>
-<br>
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/AttrSpatial.ipynb">
+</a-->
+- [Activation Grid](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/building-blocks/ActivationGrid.ipynb)
+
+  This notebook studies **activation grids** a technique for visualizing how a network "understood" an image at a particular layer.
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/AttrSpatial.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/building-blocks/stickers/colab-spatial-attr.png" width="500" alt=""></img>
-</a>
-<br>
+</a-->
+- [Channel Attribution](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/building-blocks/AttrChannel.ipynb)
+
+  This notebook demonstrates **Channel Attribution**, a technique for exploring how different detectors in the network effected its output.
+  ...
+
 <a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/AttrChannel.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/building-blocks/stickers/colab-channel-attr.png" width="500" alt=""></img>
 </a>
@@ -169,7 +178,7 @@ You can run the notebooks on your local machine, too. Clone the repository and f
 
 <br>
 
-# Recomended Reading
+# Recommended Reading
 
 * [Feature Visualization](https://distill.pub/2017/feature-visualization/)
 * [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/)
