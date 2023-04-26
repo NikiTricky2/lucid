@@ -92,7 +92,7 @@ You can run the notebooks on your local machine, too. Clone the repository and f
 </a-->
 - [Semantic Dictionary](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/building-blocks/SemanticDictionary.ipynb)
 
-  This notebook ...
+  This notebook studies **semantic dictionaries**. The basic idea of semantic dictionaries is to marry neuron activations to visualizations of those neurons, transforming them from abstract vectors to something more meaningful to humans. Semantic dictionaries can also be applied to other bases, such as rotated versions of activations space that try to disentangle neurons.
 
 <!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/ActivationGrid.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/building-blocks/stickers/colab-grid.png" width="500" alt=""></img>
@@ -104,19 +104,23 @@ You can run the notebooks on your local machine, too. Clone the repository and f
 <!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/AttrSpatial.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/building-blocks/stickers/colab-spatial-attr.png" width="500" alt=""></img>
 </a-->
+- [Spacial Attribution](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/building-blocks/AttrSpatial.ipynb)
+
+  This notebook demonstrates **Spatial Attribution**, a technique for exploring how detectors a different spatial positions in the network effected its output.
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/AttrChannel.ipynb">
+<img src="https://storage.googleapis.com/lucid-static/building-blocks/stickers/colab-channel-attr.png" width="500" alt=""></img>
+</a-->
 - [Channel Attribution](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/building-blocks/AttrChannel.ipynb)
 
   This notebook demonstrates **Channel Attribution**, a technique for exploring how different detectors in the network effected its output.
-  ...
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/AttrChannel.ipynb">
-<img src="https://storage.googleapis.com/lucid-static/building-blocks/stickers/colab-channel-attr.png" width="500" alt=""></img>
-</a>
-<br>
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/NeuronGroups.ipynb">
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/building-blocks/NeuronGroups.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/building-blocks/stickers/colab-neuron-groups.png" width="500" alt=""></img>
-</a>
+</a-->
+- [Neuron Groups](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/building-blocks/NeuronGroups.ipynb)
 
+  This notebook demonstrates **Neuron Groups**, a technique for exploring how detectors a different spatial positions in the network effected its output. ...
 
 ## Differentiable Image Parameterizations Notebooks
 *Notebooks corresponding to the [Differentiable Image Parameterizations](https://distill.pub/2018/differentiable-parameterizations/) article*
