@@ -19,7 +19,7 @@ This repository is a fork of the original [tensorflow repository](https://github
 **Lucid is research code, not production code. We provide no guarantee it will work for your use case. Lucid is maintained by volunteers who are unable to provide significant technical support.**
 
 * [📓 **Notebooks**](#notebooks) -- Get started without any setup!
-* [📚 **Reading**](#recomended-reading) -- Learn more about visualizing neural nets.
+* [📚 **Reading**](#recommended-reading) -- Learn more about visualizing neural nets.
 * [💬 **Community**](#community) -- Want to get involved? Please reach out!
 * [🔧 **Additional Information**](#additional-information) -- Licensing, code style, etc.
 * [🔬 **Start Doing Research!**](https://github.com/tensorflow/lucid/issues?utf8=%E2%9C%93&q=is%3Aissue+label%3Aresearch) -- Want to get involved? We're trying to research openly!
@@ -40,7 +40,7 @@ You can run the notebooks on your local machine, too. Clone the repository and f
 </a-->
 - [Tutorial notebook](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/tutorial.ipynb)
 
-  This tutorial quickly introduces [**Lucid**](https://github.com/tensorflow/lucid), a network for visualizing neural networks. Lucid is a kind of spiritual successor to DeepDream, but provides flexible abstractions so that it can be used for a wide range of interpretability research.
+  This tutorial quickly introduces Lucid, a network for visualizing neural networks. Lucid is a kind of spiritual successor to DeepDream, but provides flexible abstractions so that it can be used for a wide range of interpretability research.
 
 <!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/modelzoo.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/common/stickers/colab-modelzoo.png" width="500" alt=""></img>
@@ -125,61 +125,77 @@ You can run the notebooks on your local machine, too. Clone the repository and f
 ## Differentiable Image Parameterizations Notebooks
 *Notebooks corresponding to the [Differentiable Image Parameterizations](https://distill.pub/2018/differentiable-parameterizations/) article*
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/aligned_interpolation.ipynb">
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/aligned_interpolation.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/differentiable-parameterizations/stickers/colab-interpolate.png" width="500" alt=""></img>
-</a>
+</a-->
+- [Aligned interpolation](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/differentiable-parameterizations/aligned_interpolation.ipynb)
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/style_transfer_2d.ipynb">
+  This notebook uses the Lucid library to create a visualizations that interpolates between two feature visualizations.
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/style_transfer_2d.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/differentiable-parameterizations/stickers/colab-style-beyond-vgg.png" width="500" alt=""></img>
-</a>
+</a-->
+- [2D Style transfer](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/differentiable-parameterizations/style_transfer_2d.ipynb)
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/xy2rgb.ipynb">
+  This notebook uses Lucid to perform style transfer between two images, and show how different parameterizations affect that process.
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/xy2rgb.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/differentiable-parameterizations/stickers/colab-xy2rgb.png" width="500" alt=""></img>
-</a>
+</a-->
+- [Compositional Pattern Producing Network](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/differentiable-parameterizations/xy2rgb.ipynb)
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/transparency.ipynb">
+  This notebook uses Lucid to produce aesthetically pleasing feature visualizations using a [Differentiable Image Parameterization](https://distill.pub/2018/differentiable-parameterizations/#section-xy2rgb) called a **Compositional Pattern Producing Network** (CPPN).
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/transparency.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/differentiable-parameterizations/stickers/colab-transparent.png" width="500" alt=""></img>
-</a>
+</a-->
+- [Generating semi-transparent Feature Visualizations](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/differentiable-parameterizations/transparency.ipynb)
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/texture_synth_3d.ipynb">
+  This notebook uses Lucid to produce semi-transparent feature visualizations using a [Differentiable Image Parameterization](https://distill.pub/2018/differentiable-parameterizations/#section-xy2rgb) with an extra **alpha channel**.
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/texture_synth_3d.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/differentiable-parameterizations/stickers/colab-3d-texture.png" width="500" alt=""></img>
-</a>
+</a-->
+- [3D Feature Visualization](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/differentiable-parameterizations/texture_synth_3d.ipynb)
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/style_transfer_3d.ipynb">
+  This notebook uses Lucid to produce feature visualizations on 3D mesh surfaces by using a [Differentiable Image Parameterization](https://distill.pub/2018/differentiable-parameterizations/#section-featureviz-3d).
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/differentiable-parameterizations/style_transfer_3d.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/differentiable-parameterizations/stickers/colab-3d-style.png" width="500" alt=""></img>
-</a>
+</a-->
+- [3D Style Transfer](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/differentiable-parameterizations/style_transfer_3d.ipynb)
 
-<br>
+  This notebook uses Lucid to implement style transfer from a textured 3D model and a style image onto a new texture for the 3D model by using a [Differentiable Image Parameterization](https://distill.pub/2018/differentiable-parameterizations/#section-style-transfer-3d).
+
 
 ## Activation Atlas Notebooks
 *Notebooks corresponding to the [Activation Atlas](https://distill.pub/2019/activation-atlas/) article*
 
 <a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/activation-atlas/activation-atlas-collect.ipynb">
-<img src="https://storage.googleapis.com/modelzoo/tmp/activation-atlas/stickers/lucid-notebook-1-collect.png" width="500" alt="Collecting activations"></img>
+<img src="https://storage.googleapis.com/modelzoo/tmp/activation-atlas/stickers/lucid-notebook-1-collect.png" width="500" alt="Collecting activations"/>
 </a>
 
 <a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/activation-atlas/activation-atlas-simple.ipynb">
-<img src="https://storage.googleapis.com/modelzoo/tmp/activation-atlas/stickers/lucid-notebook-2-atlas.png" width="500" alt="Simple activation atlas"></img>
+<img src="https://storage.googleapis.com/modelzoo/tmp/activation-atlas/stickers/lucid-notebook-2-atlas.png" width="500" alt="Simple activation atlas"/>
 </a>
 
 <a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/activation-atlas/class-activation-atlas.ipynb">
-<img src="https://storage.googleapis.com/modelzoo/tmp/activation-atlas/stickers/lucid-notebook-3-class-atlas.png" width="500" alt="Class activation atlas"></img>
+<img src="https://storage.googleapis.com/modelzoo/tmp/activation-atlas/stickers/lucid-notebook-3-class-atlas.png" width="500" alt="Class activation atlas"/>
 </a>
 
 <a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/activation-atlas/activation-atlas-adversarial.ipynb">
-<img src="https://storage.googleapis.com/modelzoo/tmp/activation-atlas/stickers/lucid-notebook-4-patches.png" width="500" alt="Activation atlas patches"></img>
+<img src="https://storage.googleapis.com/modelzoo/tmp/activation-atlas/stickers/lucid-notebook-4-patches.png" width="500" alt="Activation atlas patches"/>
 </a>
 
 ## Miscellaneous Notebooks
 
 <a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/misc/feature_inversion_caricatures.ipynb">
-<img src="https://storage.googleapis.com/lucid-static/misc/stickers/colab-feature-inversion.ipynb.png" width="500" alt=""></img>
+<img src="https://storage.googleapis.com/lucid-static/misc/stickers/colab-feature-inversion.ipynb.png" width="500" alt=""/>
 </a>
 <br>
 <a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/misc/neuron_interaction_grids.ipynb">
-<img src="https://storage.googleapis.com/lucid-static/misc/stickers/colab-interaction-grid.png" width="500" alt=""></img>
+<img src="https://storage.googleapis.com/lucid-static/misc/stickers/colab-interaction-grid.png" width="500" alt=""/>
 </a>
-
 <br>
 
 # Recommended Reading
