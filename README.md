@@ -189,14 +189,19 @@ You can run the notebooks on your local machine, too. Clone the repository and f
 
 ## Miscellaneous Notebooks
 
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/misc/feature_inversion_caricatures.ipynb">
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/misc/feature_inversion_caricatures.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/misc/stickers/colab-feature-inversion.ipynb.png" width="500" alt=""/>
-</a>
-<br>
-<a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/misc/neuron_interaction_grids.ipynb">
+</a-->
+- [Feature Inversion Caricatures](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/misc/feature_inversion_caricatures.ipynb)
+
+  This notebook uses Lucid to produce feature inversion caricatures that are similar in spirit to the activation grids in [The Building Blocks of Interpretability](https://distill.pub/2018/building-blocks/).
+
+<!--a href="https://colab.research.google.com/github/tensorflow/lucid/blob/master/notebooks/misc/neuron_interaction_grids.ipynb">
 <img src="https://storage.googleapis.com/lucid-static/misc/stickers/colab-interaction-grid.png" width="500" alt=""/>
-</a>
-<br>
+</a-->
+- [Neuron Interaction Grids](https://colab.research.google.com/github/ercaronte/lucid/blob/master/notebooks/misc/neuron_interaction_grids.ipynb)
+
+  This notebook uses Lucid to produce grids showing how neurons different neurons interact.
 
 # Recommended Reading
 
