@@ -197,8 +197,9 @@ class Model():
     final_input_map = {self.input_name: t_prep_input}
     if input_map is not None:
       final_input_map.update(input_map)
+    print(scope)
     tf.import_graph_def(
-        self.graph_def, final_input_map, name=scope)
+        self.graph_def, final_input_map, name='')
     self.post_import(scope)
 
     def T(layer):
